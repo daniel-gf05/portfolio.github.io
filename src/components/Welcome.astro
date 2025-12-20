@@ -3,17 +3,19 @@ import Button from "./Button.astro";
 import Stack from "./Stack.astro";
 ---
 
-<div class="flex flex-col items-center mt-20">
-    <div class="mt-10">
-        <p class="font-bold text-4xl h-full">Welcome to my portfolio</p>
-        <p class="mr-63">Daniel Gayoso Fernandes</p>
+<div class="flex flex-col items-center mt-25">
+    <div>
+        <p class="font-bold text-4xl h-full">
+            Developing, Securing, and Learning
+        </p>
+        <p class="mr-63 mt-2">Daniel Gayoso Fernandes</p>
     </div>
     <div class="flex p-4 gap-5 mt-12">
         <Stack
             title="Backend"
             technologies={[
                 { name: "SpringBoot", img: "springboot.svg" },
-                { name: "Express", img: "express.svg" }
+                { name: "Express", img: "express.svg" },
             ]}
         />
         <Stack
@@ -39,6 +41,15 @@ import Stack from "./Stack.astro";
                 { name: "PostreSQL", img: "postgresql.svg" },
                 { name: "Redis", img: "redis.svg" },
                 { name: "MongoDB", img: "mongo.svg" },
+            ]}
+        />
+        <Stack
+            title="Cibersecurity"
+            technologies={[
+                { name: "Ethical Hacking", img: "hacking.svg" },
+                { name: "Network Security", img: "network-security.svg" },
+                { name: "Linux", img: "linux.svg" },
+                { name: "OSINT", img: "osint.png" },
             ]}
         />
     </div>
