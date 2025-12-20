@@ -41,7 +41,7 @@ const { title, technologies} = Astro.props;
         <div class="border-b border-zinc-600 mb-4"></div><div class="space-y-4">
             <div>
                 <ul>
-                    {technologies.map((tech) => <li class="flex gap-2 p-2 items-center"><img class="h-7" src=`/public/${tech.img}` alt="icon" /> {tech.name}</li>)}
+                    {technologies.map((tech) => <li class="flex gap-2 p-2 items-center"><img class="h-7" src=`/${tech.img}` alt="icon" /> {tech.name}</li>)}
                 </ul>
             </div>
         </div>
