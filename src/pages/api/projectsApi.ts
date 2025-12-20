@@ -23,6 +23,6 @@ export async function GET() {
             headers: { "Content-Type": "application/json" }
         })
     } catch (error) {
-        console.log("Error en api: ", error)
+        console.log(error)
     }
 }
