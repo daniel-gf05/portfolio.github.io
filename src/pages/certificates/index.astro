@@ -16,11 +16,11 @@ console.log("Certificates: ", data);
 ---
 
 <Layout title="Certificates">
-    <div class="flex justify-center mt-25 font-bold text-4xl h-full">
+    <div class="flex justify-center m-5 font-bold text-4xl">
         <div><h1>Certificates</h1></div>
     </div>
 
-    <div class="flex flex-wrap m-20 gap-5">
+    <div class="flex flex-wrap m-20 gap-5 mt-10">
         {data.map((c) => <Card title={c.title} url={c.url} tags={c.tags} />)}
     </div>
 </Layout>
