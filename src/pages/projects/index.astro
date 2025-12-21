@@ -1,6 +1,7 @@
 ---
 import Card from "../../components/Card.astro";
 import Layout from "../../layouts/Layout.astro";
+import data from "../../data/projects.json"
 
 interface Project {
     title: string
@@ -9,8 +10,8 @@ interface Project {
     tags: string[]
 }
 
-const response = await fetch(new URL("/api/projectsApi", Astro.url));
-const data: Project[] = await response.json();
+// const response = await fetch(new URL("/api/projectsApi", Astro.url));
+// const data: Project[] = await response.json();
 
 console.log("Data:", data);
 ---
