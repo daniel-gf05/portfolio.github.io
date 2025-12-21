@@ -20,7 +20,7 @@ console.log("Certificates: ", data);
         <div><h1>Certificates</h1></div>
     </div>
 
-    <div class="flex flex-wrap mx-40 gap-5 mt-10">
+    <div class="flex flex-wrap m-20 gap-5">
         {data.map((c) => <Card title={c.title} url={c.url} tags={c.tags} />)}
     </div>
 </Layout>

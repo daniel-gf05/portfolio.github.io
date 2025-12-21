@@ -17,11 +17,11 @@ console.log("Data:", data);
 ---
 
 <Layout title="Projects">
-    <div class="flex justify-center mt-25 font-bold text-4xl h-full">
+    <div class="flex justify-center mt-25 font-bold text-4xl">
         <div><h1>Projects</h1></div>
     </div>
     
-    <div class="flex flex-wrap mx-40 gap-5 mt-10">
+    <div class="flex flex-wrap m-20 gap-5 mt-10">
         {
             data.map(p => 
                 <Card title={p.title} url={p.url} tags={p.tags}>
