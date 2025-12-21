@@ -1,11 +1,10 @@
 ---
 interface Props {
-    title: string
-    url?: string
-    tags: string[]
+    title: string;
+    url?: string;
 }
 
-const { title, url = "#", tags } = Astro.props;
+const { title, url = "#" } = Astro.props;
 ---
 
 <div class="group">
@@ -25,16 +24,8 @@ const { title, url = "#", tags } = Astro.props;
             <slot />
         </div>
 
-        <div class="flex flex-wrap gap-2 mb-6">
-            {tags.map((tag) => (
-                <span class="px-2 py-1 text-[10px] font-medium uppercase tracking-wider text-zinc-400 bg-zinc-800/50 border border-zinc-700/50 rounded-md group-hover:border-blue-500/30 group-hover:text-zinc-300 transition-colors">
-                    {tag}
-                </span>
-            ))}
-        </div>
-
         <div class="flex items-center gap-2 text-xs font-mono text-blue-500/80 group-hover:text-blue-400">
-            <span>View</span>
+            <span>View Project</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
