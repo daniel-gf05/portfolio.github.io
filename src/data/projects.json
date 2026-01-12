@@ -64,5 +64,18 @@
             "Tailwind CSS",
             "Design"
         ]
+    },
+    {
+        "_id": {
+            "$oid": "694710ae12f3a78542fbbc90"
+        },
+        "title": "Angular Learning Lab",
+        "url": "https://github.com/daniel-gf05/angular-lab",
+        "description": "An educational repository containing structured exercises and projects focused on Angular architecture.",
+        "tags": [
+            "Angular",
+            "TypeScript",
+            "Frontend"
+        ]
     }
 ]
