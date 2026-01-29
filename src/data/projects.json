@@ -77,5 +77,18 @@
             "TypeScript",
             "Frontend"
         ]
+    },
+    {
+        "_id": {
+            "$oid": "679a046c82f3a78542fbbd12"
+        },
+        "title": "Python Encrypter",
+        "url": "https://github.com/daniel-gf05/python-encrypter",
+        "description": "Una herramienta de cifrado y descifrado de texto en Python, enfocada en la seguridad y el manejo de algoritmos criptográficos.",
+        "tags": [
+            "Python",
+            "Cryptography",
+            "Security"
+        ]
     }
 ]
